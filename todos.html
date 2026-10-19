@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Todos</title>
+    <link rel="stylesheet" href="todos.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="hamburger">
+        <div class="line"></div>
+        <div class="line"></div>
+        <div class="line"></div>
+      </div>
+      <div class="user-container">
+        <img class="user-img" src="img/pngwing.com (6).png" alt="usericon" />
+        <span class="user-name">unknown user</span>
+      </div>
+      <ul class="nav-links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="todos.html">Todos</a></li>
+        <li><a href="Sign in.html">Sign up</a></li>
+      </ul>
+    </nav>
+
+    <div class="todoContainer">
+      <h1 id="To do list title">Todo List</h1>
+      <input class="todo-input" type="text" placeholder="Enter todo" />
+      <hr />
+      <ul class="todos">
+        <li class="todo">
+          one todo
+          <div class="btn-container">
+            <a class="edit">✅</a><a class="edit">✏️</a><a class="remove">✖️</a>
+          </div>
+        </li>
+        <li class="todo">
+          one todo
+          <div class="btn-container">
+            <a class="edit">✅</a><a class="edit">✏️</a><a class="remove">✖️</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+
+    <script src="./todos.js" type="module"></script>
+    <script src="./app2.js" type="module"></script>
+  </body>
+</html>

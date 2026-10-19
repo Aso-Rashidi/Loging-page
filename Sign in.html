@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Prompt:wght@500&display=swap"
+      rel="stylesheet"
+    />
+    <title>practice</title>
+    <link rel="stylesheet" href="style2.css" type="text/css" />
+  </head>
+  <body>
+    <div class="main-log-container">
+      <img
+        src="img/login%20image.webp"
+        alt="login page image"
+        class="log-img"
+      />
+      <div class="form-container">
+        <form id="form" method="post">
+          <h1 class="title">Sign in</h1>
+          <div class="short-container">
+            <p class="short">
+              Do you have an account?
+            </p>
+            <a id="signQ" class="Link">Login</a>
+          </div>
+          <label class="label"
+            >User Name <br />
+            <input
+              id="userName"
+              type="text"
+              name="user-name"
+              class="TextBox"
+              placeholder="Enter the user name"
+              autofocus
+            />
+          </label>
+          <span id="msgUser" class="msg"></span>
+          <br />
+          <label id="passLable" class="label"
+            >Password
+            <br />
+            <input
+              id="userPass"
+              type="password"
+              name="password"
+              class="TextBox"
+              placeholder="Enter the password"
+            />
+          </label>
+          <span id="msgPwd" class="msg"></span>
+          <button id="submitBtn" type="submit" class="submit">Sign in</button>
+        </form>
+        <hr />
+        <p class="online-text">or signin with</p>
+        <div class="sub-container">
+          <div class="google">
+            <img src="img/google.svg" alt="Google icon" /><a href="#">Google</a>
+          </div>
+          <div class="facebook">
+            <img src="img/face%20book.svg" alt="Facebook icon" /><a href="#"
+              >Facebook</a
+            >
+          </div>
+        </div>
+      </div>
+      <div id="pop" class="popup-container">
+        <div class="popup-icon">
+          <img class="popup-img" src="img/warning.webp" alt="popup icon" />
+        </div>
+        <div class="popup-content">
+          <div class="popup-title">Succsessful</div>
+          <div class="popup-text">Add information status</div>
+        </div>
+      </div>
+      <img src="img/return.png" alt="return imge" class="return" />
+    </div>
+
+    <script src="app2.js" type="module"></script>
+    <script src="./todos.js" type="module"></script>
+  </body>
+</html>
